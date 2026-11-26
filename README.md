@@ -1,6 +1,6 @@
 # SplitTable
 
-A working full-stack bill splitter built for Ishan Sachdeva. Create a bill, add people, enter receipt line totals, and assign each item to one or several people. Share a bill URL to work on the same saved bill.
+A working full-stack bill splitter built. Create a bill, add people, enter receipt line totals, and assign each item to one or several people. Share a bill URL to work on the same saved bill.
 
 ## Implemented
 
