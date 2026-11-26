@@ -52,22 +52,4 @@ Tests include penny rounding, proportional allocation, zero/full discounts, empt
 
 ## Access and limitations
 
-The published site starts private. To collaborate with friends, the site owner must separately change its access settings. Anyone with site access AND a bill URL can read or edit that bill, including participants and prices. Bill URLs are bearer links, not per-person authentication; do not put sensitive information in bill names. Participant names do not establish identity. There is no payment collection, OCR, settlement tracking, or per-person authorization. This version uses D1/SQLite, not Supabase/PostgreSQL. Recent bills are device-local bookmarks, not an account-wide dashboard. There is no application-level bill deletion or account system yet.
-
-## Development
-
-Built with AI assistance using React, TypeScript, Vinext and Cloudflare D1. The exported application code matches the saved Site version; unused starter UI components and example code are omitted.
-
-## GitHub upload
-
-Unzip this package. Create an empty repository named `splittable` on GitHub, then upload the CONTENTS of this folder (not the ZIP or the containing folder). Include `.gitignore`, `.npmrc` and the `.openai` directory. On macOS, press Command+Shift+Period in Finder to reveal these files. No generated dependencies, local database records or credentials are included.
-
-Publishing source on GitHub does not deploy the application or make its private hosted demo accessible. This app requires a server and database; GitHub Pages cannot run its API routes. The included Site manifest identifies the existing hosted project and is not a credential. Deploying elsewhere requires configuring the target hosting and database.
-
-Optional API integration check against a running development instance:
-
-```sh
-TEST_BASE_URL=http://localhost:5173 node --test tests/api.test.mjs
-```
-
-Use the actual URL printed by your development server. This test creates an isolated test bill. Browser workflows and cross-tab synchronization were verified; the standalone API test was not completed in the managed build environment because the preview server was unreachable from its shell.
+The published site starts private. 
